@@ -1,0 +1,6 @@
+1378857261
+Application	C:/Users/mbahoshy/SkyDrive/rails_projects/sample_app/config/application.rb	  class Application 
+ApplicationController	C:/Users/mbahoshy/SkyDrive/rails_projects/sample_app/app/controllers/application_controller.rb	class ApplicationController 
+ApplicationHelper	C:/Users/mbahoshy/SkyDrive/rails_projects/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
+SampleApp	C:/Users/mbahoshy/SkyDrive/rails_projects/sample_app/config/application.rb	module SampleApp
+secure_token	C:/Users/mbahoshy/SkyDrive/rails_projects/sample_app/config/initializers/secret_token.rb	def secure_token
