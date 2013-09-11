@@ -1,4 +1,15 @@
 --- 
-cursor_positions: []
-
+cursor_positions: 
+  - :path: README.rdoc
+    :cursor_offset: 188
+    :timestamp: 2013-09-10 16:56:48.699000 -07:00
+  - :path: Gemfile
+    :cursor_offset: 42
+    :timestamp: 2013-09-10 16:50:19.292000 -07:00
+  - :path: .gitignore
+    :cursor_offset: 273
+    :timestamp: 2013-09-10 16:53:26.572000 -07:00
+  - :path: config/initializers/secret_token.rb
+    :cursor_offset: 894
+    :timestamp: 2013-09-10 16:54:21.180000 -07:00
 files_to_retain: 0
