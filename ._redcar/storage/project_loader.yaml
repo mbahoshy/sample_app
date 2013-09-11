@@ -1,5 +1,4 @@
 --- 
 open_files: 
-  - Gemfile
-  - .gitignore
-  - config/initializers/secret_token.rb
+  - app/controllers/static_pages_controller.rb
+  - app/views/static_pages/home.html.erb

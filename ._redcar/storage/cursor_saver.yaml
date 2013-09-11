@@ -7,9 +7,18 @@ cursor_positions:
     :cursor_offset: 42
     :timestamp: 2013-09-10 16:50:19.292000 -07:00
   - :path: .gitignore
-    :cursor_offset: 273
+    :cursor_offset: 0
     :timestamp: 2013-09-10 16:53:26.572000 -07:00
   - :path: config/initializers/secret_token.rb
-    :cursor_offset: 894
+    :cursor_offset: 0
     :timestamp: 2013-09-10 16:54:21.180000 -07:00
+  - :path: config/routes.rb
+    :cursor_offset: 0
+    :timestamp: 2013-09-10 17:32:06.126000 -07:00
+  - :path: app/controllers/static_pages_controller.rb
+    :cursor_offset: 0
+    :timestamp: 2013-09-10 17:32:06.122000 -07:00
+  - :path: app/views/static_pages/home.html.erb
+    :cursor_offset: 0
+    :timestamp: 2013-09-10 17:32:06.169000 -07:00
 files_to_retain: 0
