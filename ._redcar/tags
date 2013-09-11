@@ -1,10 +1,21 @@
-1378860299
+1378881440
+About page	C:/Users/mbahoshy/SkyDrive/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "About page" do
 Application	C:/Users/mbahoshy/SkyDrive/rails_projects/sample_app/config/application.rb	  class Application 
 ApplicationController	C:/Users/mbahoshy/SkyDrive/rails_projects/sample_app/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	C:/Users/mbahoshy/SkyDrive/rails_projects/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
+Help page	C:/Users/mbahoshy/SkyDrive/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "Help page" do
+Home page	C:/Users/mbahoshy/SkyDrive/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "Home page" do
 SampleApp	C:/Users/mbahoshy/SkyDrive/rails_projects/sample_app/config/application.rb	module SampleApp
+Static pages	C:/Users/mbahoshy/SkyDrive/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "Static pages" do
 StaticPagesController	C:/Users/mbahoshy/SkyDrive/rails_projects/sample_app/app/controllers/static_pages_controller.rb	class StaticPagesController 
 StaticPagesHelper	C:/Users/mbahoshy/SkyDrive/rails_projects/sample_app/app/helpers/static_pages_helper.rb	module StaticPagesHelper
+about	C:/Users/mbahoshy/SkyDrive/rails_projects/sample_app/app/controllers/static_pages_controller.rb	  def about
 help	C:/Users/mbahoshy/SkyDrive/rails_projects/sample_app/app/controllers/static_pages_controller.rb	  def help
 home	C:/Users/mbahoshy/SkyDrive/rails_projects/sample_app/app/controllers/static_pages_controller.rb	  def home
 secure_token	C:/Users/mbahoshy/SkyDrive/rails_projects/sample_app/config/initializers/secret_token.rb	def secure_token
+should have the content 'About'	C:/Users/mbahoshy/SkyDrive/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the content 'About'" do
+should have the content 'Help'	C:/Users/mbahoshy/SkyDrive/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the content 'Help'" do
+should have the content 'Sample App'	C:/Users/mbahoshy/SkyDrive/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the content 'Sample App'" do
+should have the right title	C:/Users/mbahoshy/SkyDrive/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the right title" do
+should have the right title	C:/Users/mbahoshy/SkyDrive/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the right title" do
+should have the right title	C:/Users/mbahoshy/SkyDrive/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the right title" do
