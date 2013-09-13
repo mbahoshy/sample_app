@@ -2,9 +2,10 @@
 open_files: 
   - app/controllers/static_pages_controller.rb
   - app/views/static_pages/home.html.erb
+  - app/views/static_pages/help.html.erb
+  - app/views/static_pages/about.html.erb
   - spec/requests/static_pages_spec.rb
   - spec/spec_helper.rb
-  - app/views/static_pages/help.html.erb
   - config/routes.rb
-  - app/views/static_pages/about.html.erb
   - app/views/layouts/application.html.erb
+  - app/helpers/application_helper.rb
