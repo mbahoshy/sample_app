@@ -1,4 +1,4 @@
-1378919030
+1379823914
 About page	C:/Users/mbahoshy/SkyDrive/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "About page" do
 Application	C:/Users/mbahoshy/SkyDrive/rails_projects/sample_app/config/application.rb	  class Application 
 ApplicationController	C:/Users/mbahoshy/SkyDrive/rails_projects/sample_app/app/controllers/application_controller.rb	class ApplicationController 
@@ -10,17 +10,20 @@ SampleApp	C:/Users/mbahoshy/SkyDrive/rails_projects/sample_app/config/applicatio
 Static pages	C:/Users/mbahoshy/SkyDrive/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "Static pages" do
 StaticPagesController	C:/Users/mbahoshy/SkyDrive/rails_projects/sample_app/app/controllers/static_pages_controller.rb	class StaticPagesController 
 StaticPagesHelper	C:/Users/mbahoshy/SkyDrive/rails_projects/sample_app/app/helpers/static_pages_helper.rb	module StaticPagesHelper
+UserPages	C:/Users/mbahoshy/SkyDrive/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "UserPages" do
+UsersController	C:/Users/mbahoshy/SkyDrive/rails_projects/sample_app/app/controllers/users_controller.rb	class UsersController 
+UsersHelper	C:/Users/mbahoshy/SkyDrive/rails_projects/sample_app/app/helpers/users_helper.rb	module UsersHelper
 about	C:/Users/mbahoshy/SkyDrive/rails_projects/sample_app/app/controllers/static_pages_controller.rb	  def about
 contact	C:/Users/mbahoshy/SkyDrive/rails_projects/sample_app/app/controllers/static_pages_controller.rb	  def contact
 full_title	C:/Users/mbahoshy/SkyDrive/rails_projects/sample_app/app/helpers/application_helper.rb	  def full_title(page_title)
 help	C:/Users/mbahoshy/SkyDrive/rails_projects/sample_app/app/controllers/static_pages_controller.rb	  def help
 home	C:/Users/mbahoshy/SkyDrive/rails_projects/sample_app/app/controllers/static_pages_controller.rb	  def home
+new	C:/Users/mbahoshy/SkyDrive/rails_projects/sample_app/app/controllers/users_controller.rb	  def new
 secure_token	C:/Users/mbahoshy/SkyDrive/rails_projects/sample_app/config/initializers/secret_token.rb	def secure_token
 should have the content 'About Us'	C:/Users/mbahoshy/SkyDrive/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the content 'About Us'" do
 should have the content 'Contact'	C:/Users/mbahoshy/SkyDrive/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the content 'Contact'" do
 should have the content 'Help'	C:/Users/mbahoshy/SkyDrive/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the content 'Help'" do
-should have the content 'Sample App'	C:/Users/mbahoshy/SkyDrive/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the content 'Sample App'" do
 should have the title 'About Us'	C:/Users/mbahoshy/SkyDrive/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the title 'About Us'" do
 should have the title 'Contact'	C:/Users/mbahoshy/SkyDrive/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the title 'Contact'" do
 should have the title 'Help'	C:/Users/mbahoshy/SkyDrive/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the title 'Help'" do
-should have the title 'Home'	C:/Users/mbahoshy/SkyDrive/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the title 'Home'" do
+signup page	C:/Users/mbahoshy/SkyDrive/rails_projects/sample_app/spec/requests/user_pages_spec.rb	describe "signup page" do
